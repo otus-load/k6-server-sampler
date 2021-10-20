@@ -63,4 +63,4 @@ jobs:
         filename: script.js
       env:
         HOST: ${{ secrets.HEROKU_APP_NAME }}.herokuapp.com
-        PORT: ${{ needs.build.outputs.output_port }}
+        PORT: 443
