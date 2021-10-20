@@ -30,8 +30,8 @@ export let options = {
     maxVUs: 100,
     exec: "hard",
     stages: [
-      { target: 15, duration: '3s' },
-      { target: 25, duration: '10s' },
+      { target: 5, duration: '3s' },
+      { target: 10, duration: '10s' },
       { target: 0, duration: '2s' },
     ],
   },
