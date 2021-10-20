@@ -1,0 +1,24 @@
+{
+  "name": "node_docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker for loadtesting",
+  "author": "eszhlznkv",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksimall89/dummy_app_for_load.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Maksimall89/dummy_app_for_load/issues"
+  },
+  "homepage": "https://github.com/Maksimall89/dummy_app_for_load#readme"
+}
