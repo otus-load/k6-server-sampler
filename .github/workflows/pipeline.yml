@@ -47,7 +47,7 @@ jobs:
   loadtest:
     name: k6 local test run 
     runs-on: ubuntu-latest
-    container: docker://loadimpact/k6:0.34.1
+    container: docker://loadimpact/k6:0.36.0
     needs: [build]
 
     steps:
